@@ -8,7 +8,6 @@ import {
   Layout,
   Workflow,
   Shield,
-  Monitor,
   ArrowRight,
 } from 'lucide-react';
 import { GithubIcon } from '../components/Icons';

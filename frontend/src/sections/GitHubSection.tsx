@@ -43,7 +43,7 @@ export default function GitHubSection() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const username = 'yogitasharma3372';
+  const username = personalInfo.githubUsername || 'yogitasharma3372-ui';
 
   useEffect(() => {
     const fetchGitHub = async () => {

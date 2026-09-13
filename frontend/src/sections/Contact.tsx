@@ -1,4 +1,5 @@
-import { useState, FormEvent } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Mail, Phone, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/Icons';
@@ -137,7 +138,7 @@ export default function Contact() {
                 <div>
                   <p className="text-xs text-surface-200/40">GitHub</p>
                   <p className="text-sm text-surface-200/80 group-hover:text-surface-100 transition-colors">
-                    yogitasharma3372
+                    {personalInfo.githubUsername || 'yogitasharma3372-ui'}
                   </p>
                 </div>
               </a>

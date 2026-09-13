@@ -1,5 +1,4 @@
-// Custom SVG icons for brands not available in lucide-react
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   size?: number;
